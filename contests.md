@@ -1,6 +1,6 @@
 2018  
-Topcoder Open Marathon Match 予選 1pt  
-情報処理学会 SamuraiCoding2017-2018 Finalist   
+Topcoder Open Marathon Match qualifying 1pt  
+IPA SamuraiCoding2017-2018 Finalist   
 2017  
 DISCO ディスカバリーチャンネル コードコンテスト2017 本戦進出  
 2016  
