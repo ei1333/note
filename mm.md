@@ -19,7 +19,9 @@ https://community.topcoder.com/longcontest/stats/?module=CoderRank
 
 公式チュートリアル(Simulated Annealing (SA)
 https://www.topcoder.com/blog/approaching-marathon-match-task-pt-1/
+
 ---
+
 非公式
 コンテスト後のツイートまとめ
 https://togetter.com/li/1243876
