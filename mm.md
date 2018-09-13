@@ -19,7 +19,7 @@ http://community.topcoder.com/longcontest/?module=ViewPractice
 statistics(レートの更新が早い)
 https://community.topcoder.com/longcontest/stats/?module=CoderRank
 
-公式チュートリアル(Simulated Annealing (SA)
+公式チュートリアル(Simulated Annealing)
 https://www.topcoder.com/blog/approaching-marathon-match-task-pt-1/
 
 ---
