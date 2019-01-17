@@ -48,4 +48,19 @@ http://topcoder.g.hatena.ne.jp/agw/20141205
 焼きなまし法のコツ Ver. 1.2
 http://shindannin.hatenadiary.com/entry/20121224/1356364040
 
+---
 
+tester
+
+配布: teater.jar ローカル用テスター seed=1~3ぐらいは要素数などランダムな値になるところを固定していことが多い
+
+配布: ProblemVis.java　テスターの実装コード 問題分から抜けた制約などがあるので確認すること
+内部で使用する分布や確率をテスターから出力させるようにコードを改変すると便利になることが多い
+
+tester.jar の再構成:
+```
+jar xvf tester.jar
+javac *.java &&\
+jar cvfm tester.jar META-INF/MANIFEST.MF *.class &&\
+rm *.class
+```
