@@ -53,6 +53,11 @@ xmodmap -e 'keycode 255=space'; xmodmap -e 'keycode 65=Shift_L';xcape -e '#65=sp
 alias sands="killall xcape; xmodmap -e 'keycode 255=space'; xmodmap -e 'keycode 65=Shift_L';xcape -e '#65=space'"
 
 ```
+# emoji
+フォントはインストールで対応済み
+https://github.com/peaceiris/emoji-ime-dictionary
+辞書登録
+
 # neovim
 
 # Arch Linux
