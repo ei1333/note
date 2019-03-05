@@ -47,3 +47,14 @@ set completion-ignore-case on
 ### SandS
 apt install xcape
 xmodmap -e 'keycode 255=space'; xmodmap -e 'keycode 65=Shift_L';xcape -e '#65=space'
+
+# neovim
+
+# Arch Linux
+sudo pacman -S python-pip
+sudo pip install pynvim
+sudo pacman -S python2-pip
+sudo pip2 install pynvim
+
+
+sudo pip install pynvim
