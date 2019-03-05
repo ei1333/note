@@ -42,7 +42,9 @@ echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sys
 .inputrc .bashrcではないことに注意
 大文字小文字を区別せず補完する
 set completion-ignore-case on
+```echo set completion-ignore-case on > .inputrc
 
+```
 ## keyboard
 ### SandS
 apt install xcape
