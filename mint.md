@@ -49,7 +49,10 @@ echo set completion-ignore-case on > .inputrc
 ### SandS
 apt install xcape
 xmodmap -e 'keycode 255=space'; xmodmap -e 'keycode 65=Shift_L';xcape -e '#65=space'
+```
+alias sands="killall xcape; xmodmap -e 'keycode 255=space'; xmodmap -e 'keycode 65=Shift_L';xcape -e '#65=space'"
 
+```
 # neovim
 
 # Arch Linux
