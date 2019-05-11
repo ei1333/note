@@ -73,6 +73,18 @@ https://golang.org/dl/
 
 source .profile
 
+## github
+```
+mkdir .ssh
+cd .ssh
+ssh-keygen -t rsa
+```
+githubに登録
+```
+ssh -T git@github.com
+```
+yes 
+
 
 ## mint de wacom 
 wacom https://linuxwacom.github.io/
