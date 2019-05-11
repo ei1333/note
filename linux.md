@@ -1,3 +1,4 @@
+#Mint Linux
 ## install
 install 日本語 でmozcがデフォルトでインストールされる
 HOME以下のフォルダー名が日本語になっているので
