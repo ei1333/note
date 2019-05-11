@@ -18,7 +18,7 @@ Window Tiling -> OFF
 Input method -> Fcitx
 Fcitx configuration
 
-### 英語キーボードを使って右アルトで日本語　左altで英語に切り替わるようにする
+### 英語キーボードを使って右アルトで日本語　左アルトで英語に切り替わるようにする
 Gloval config
 Show Advance Option
 Activate input method -> Ralt
@@ -41,7 +41,12 @@ alias sands="killall xcape; xmodmap -e 'keycode 255=space'; xmodmap -e 'keycode 
 入力モードメソッドの設定->全体の設定->ホットキー-> 入力メソッドの切り替え
 Ctrl+ShiftからAlt+Shiftにする
 
-英語モードのときspaceが二重に入力されてしまう
+英語モードのときspaceが二重(それ以上)に入力されてしまう
+xmodmapの多重起動の可能性がある?
+再起動
+
+### mozc
+mozcのskinは設定ではなく右下のキーボードアイコンからスキンを選択する
 
 
 
@@ -59,8 +64,6 @@ sslのエラーがでても問題ない
 linux-karnelをupdateしたときは,make cleanをしてdriverをいれなおす
 (再起動後一度cinammonがしぬ？
 
-## 設定
-mozcのskinは設定ではなく右下のキーボードアイコンからスキンを選択する
 
 ## dropbox
 Linux で 1 万件以上のフォルダを監視する
@@ -81,7 +84,8 @@ echo set completion-ignore-case on > .inputrc
 https://github.com/peaceiris/emoji-ime-dictionary
 辞書登録
 
-# neovim
+
+
 
 # Arch Linux
 sudo pacman -S python-pip
