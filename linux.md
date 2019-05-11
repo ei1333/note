@@ -59,6 +59,14 @@ xclipで良さそう
 
 :CheckHealth で　Error をつぶしていく
 
+```
+pip install neovim
+おそらくエラーがでるのでこれで対象
+pip install setuptools
+pip install wheel
+pip3 も同様に対処
+```
+
 
 ## golang
 https://golang.org/dl/
