@@ -1,4 +1,4 @@
-#Mint Linux
+# Mint Linux
 ## install
 install 日本語 でmozcがデフォルトでインストールされる
 HOME以下のフォルダー名が日本語になっているので
@@ -49,6 +49,12 @@ xmodmapの多重起動の可能性がある?
 ### mozc
 mozcのskinは設定ではなく右下のキーボードアイコンからスキンを選択する
 
+## neovim
+https://github.com/neovim/neovim/wiki/Installing-Neovim#ubuntu
+
+## golang
+https://golang.org/dl/
+source .profile
 
 
 ## mint de wacom 
@@ -82,9 +88,8 @@ echo set completion-ignore-case on > .inputrc
 
 # emoji
 フォントはインストールで対応済み
-https://github.com/peaceiris/emoji-ime-dictionary
 辞書登録
-
+https://github.com/peaceiris/emoji-ime-dictionary
 
 
 
