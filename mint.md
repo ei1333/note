@@ -1,8 +1,15 @@
 ## install
-install English version
-日本語でインストールしないとmozcまわりがおかしなことになる（？
-Language Setting
-Language support - > Japanise [install]
+install 日本語 でmozcがデフォルトでインストールされる
+HOME以下のフォルダー名が日本語になっているので
+一度 language English に設定して再起動
+再起動時にフォルダ名を英語にしますか　とダイアログがでるので Yes
+同様にlanguage 日本語に戻して再起動　フォルダ名を英語にしたいので今回は Noを選択する
+
+	install English version
+	日本語でインストールしないとmozcまわりがおかしなことになる（？
+	Language Setting
+	Language support - > Japanise [install]
+	
 Input method -> Fcitx
 Fcitx configuration
 Gloval config
