@@ -52,8 +52,17 @@ mozcのskinは設定ではなく右下のキーボードアイコンからスキ
 ## neovim
 https://github.com/neovim/neovim/wiki/Installing-Neovim#ubuntu
 
+### xclip or xsel
+https://askubuntu.com/questions/705620/xclip-vs-xsel
+
+xclipで良さそう 
+
+:CheckHealth で　Error をつぶしていく
+
+
 ## golang
 https://golang.org/dl/
+
 source .profile
 
 
