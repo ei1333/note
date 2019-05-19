@@ -118,7 +118,10 @@ echo set completion-ignore-case on > .inputrc
 # emoji
 フォントはインストールで対応済み
 辞書登録
+
 https://github.com/peaceiris/emoji-ime-dictionary
+
+直接emoji.txtをwget すると辞書登録できないので、releaseからzipをダウンロードして登録する
 
 
 
