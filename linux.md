@@ -30,9 +30,25 @@ Inactivate Input method -> Lalt
 Keyboard- >Layouts->Options...
 ctrl positions->Swap ctrl and caps lock
 delete kayでempty
-fasd sadfjlkj lkj lkj ;lkj l;k ;lk ｌｋｊｌｋｊ
 
 ### SandS  spaceh key を shiftとしても扱う
+## new
+```
+sudo pip3 install xkeysnail
+```
+~/.config/xkeysnail/config.py
+```
+# -*- coding: utf-8 -*-
+
+import re
+from xkeysnail.transform import *
+
+define_multipurpose_modmap({
+    # SandS
+    Key.SPACE: [Key.SPACE, Key.LEFT_SHIFT],
+})
+```
+## old
 apt install xcape
 xmodmap -e 'keycode 255=space'; xmodmap -e 'keycode 65=Shift_L';xcape -e '#65=space'
 ```
